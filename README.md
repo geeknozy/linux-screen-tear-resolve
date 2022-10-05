@@ -2,6 +2,7 @@
 config to resolve screen tearing issue on Linux for intel based integrated GPU machines
 
 ### Step 1: make a folder with name xorg.conf.d in /etc/X11/ path using below command <br>
+##### Note: Ignore if already the config folder is present and move to step 2<br>
 ```
 sudo mkdir /etc/X11/xorg.conf.d
 ```
