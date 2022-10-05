@@ -9,8 +9,8 @@ config to resolve screen tearing issue on Linux for intel based integrated GPU m
 
 ## Step 3: paste the below lines in the config file and save and exit <br>
 
-```Section  "Device"
-   Identifier  "Intel Graphics"
+```Section  "Device"```
+```   Identifier  "Intel Graphics"
    Driver   "intel"
    Option   "TearFree"    "true"
 EndSection```
