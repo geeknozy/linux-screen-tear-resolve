@@ -8,7 +8,7 @@ sudo pacman -Syu mesa vulkan-radeon libva-mesa-driver xf86-video-amdgpu
 sudo pacman -S mesa vulkan-intel intel-media-driver
 ```
 
-# To resolve screen tearing in Linux
+## To resolve screen tearing in Linux
 config to resolve screen tearing issue on Linux for intel based integrated GPU machines
 Note: inorder for this config to work respective intel / amd xf86 driver must be installed exclusively
 intel: xf86-video-intel
